@@ -1,0 +1,17 @@
+# Dependências
+node_modules/
+
+# SEGREDOS — nunca versionar nem enviar em zip
+.env
+.env.*
+!.env.example
+
+# Certificados HTTPS de desenvolvimento (gerados automaticamente em .certs/)
+.certs/
+*.pem
+*.key
+
+# Anotações com credenciais, backups e logs
+banco.txt
+*.zip
+*.log

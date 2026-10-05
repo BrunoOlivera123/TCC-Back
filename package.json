@@ -1,0 +1,23 @@
+{
+  "name": "soscar-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SOS Car - API (Node.js/Express + MySQL). Projeto do TCC \"Sistema de SOS para Veículos Automotores\".",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^17.4.2",
+    "express": "^4.19.2",
+    "mysql2": "^3.12.0",
+    "nodemailer": "^9.1.1",
+    "selfsigned": "^5.5.0"
+  }
+}
